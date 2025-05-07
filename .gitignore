@@ -9,6 +9,7 @@ __pycache__/
 # Distribution / packaging
 Models/
 .ipynb_checkpoints/
+.idea/
 .Python
 build/
 develop-eggs/
