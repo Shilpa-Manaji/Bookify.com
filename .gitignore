@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-Models/
+ M/
 .ipynb_checkpoints/
 .idea/
 .Python
