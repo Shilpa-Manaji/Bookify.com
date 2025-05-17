@@ -1,5 +1,4 @@
 Database/Datasets/book_review.csv filter=lfs diff=lfs merge=lfs -text
 Database/Datasets/all_review.csv filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
-git lfs track "*.joblib"
 * !text !filter !merge !diff
