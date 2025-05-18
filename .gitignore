@@ -10,6 +10,12 @@ __pycache__/
 .Python
 RecommendationModels/
 Models/Baseline/rf_model_v1.joblib
+Database/Cleaned_Datasets/Merge_Review_Cleaned.csv
+Database/Cleaned_Datasets/Review_Cleaned.csv
+Database/Cleaned_Datasets/preprocessed_review.csv
+Database/Cleaned_Datasets/processed_reviews_with_embeddings_and_sentiment.csv
+Database/Datasets/book_review.csv
+
 .ipynb_checkpoints/
 build/
 develop-eggs/
