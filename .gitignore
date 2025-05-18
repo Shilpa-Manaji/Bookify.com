@@ -9,7 +9,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 RecommendationModels/
-Models/
+Models/Baseline/rf_model_v1.joblib
 .ipynb_checkpoints/
 build/
 develop-eggs/
