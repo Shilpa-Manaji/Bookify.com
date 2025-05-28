@@ -15,8 +15,10 @@ Database/Cleaned_Datasets/Review_Cleaned.csv
 Database/Cleaned_Datasets/preprocessed_review.csv
 Database/Cleaned_Datasets/processed_reviews_with_embeddings_and_sentiment.csv
 Database/Datasets/book_review.csv
-
 Models/lstm_model_v1.h5
+
+Notebooks/ModelSelection/lstm_tuning_dir
+Notebooks/ModelSelection/.ipynb_checkpoints
 .ipynb_checkpoints/
 .idea/
 build/
