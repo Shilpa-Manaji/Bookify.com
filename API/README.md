@@ -54,6 +54,13 @@ curl -X POST http://localhost:8001/recommend -H "Content-Type: application/json"
 ```bash
 docker run -p 8002:8000 bookify-sentiment
 ```
+
+For Docker registry
+```bash
+docker pull shilpa2003/bookify-sentiment:latest
+docker run -p 8002:8000 shilpa2003/bookify-sentiment:latest
+```
+
 ![img_5.png](outputs%2Fimg_5.png)
 
 Docker results for sentiment
