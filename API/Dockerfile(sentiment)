@@ -1,0 +1,24 @@
+# Use official Python slim image
+FROM python:3.9-slim
+
+# Set working directory
+WORKDIR /app
+
+# Copy API code into container
+COPY API/ /app/
+
+# Copy model files into container
+COPY Models /Models/
+
+# Install dependencies
+RUN pip install --upgrade pip
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Expose port for Flask
+EXPOSE 8000
+
+# Health check
+HEALTHCHECK CMD curl --fail http://localhost:8000/health || exit 1
+
+# Run the Flask app
+CMD ["python", "sentiment_api.py"]
